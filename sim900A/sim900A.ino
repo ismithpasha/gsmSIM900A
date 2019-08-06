@@ -48,7 +48,7 @@ Serial.println("4!...");
   gprsSerial.println("AT+HTTPINIT");
    delay(1000); 
    toSerial(); 
-   String url = "http://picosoftbd.com/savedata.php?Data=Hello World";
+   String url = "http://mywebsite.com/savedata.php?data=Hello World";
      Serial.println(url);
    // set http param value
    gprsSerial.println("AT+HTTPPARA=\"URL\",\""+url+"\"");

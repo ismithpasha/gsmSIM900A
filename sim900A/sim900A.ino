@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 int RST_PIN = 12;
-SoftwareSerial gprsSerial(8, 9);
+SoftwareSerial gprsSerial(7, 8);
 
 void setup(){
   Serial.begin(9600);
